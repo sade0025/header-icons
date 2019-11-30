@@ -1,3 +1,62 @@
-html{
+html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  text-align: center;
+  color: #fff;
+  display: block;
+}
+
+img {
+  width: 40px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.webpage-title {
+  display: flex;
+  justify-content: space-between;
+  padding: .4rem 0;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  font-size: 1.125rem;
+  padding: 0;
+}
+
+nav li {
+  width: 33.33%;
+  text-align: center;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: .5em;
+  border: 1px #a63f38 solid;
+}
+
+.nav a:hover {
+  background-color: #a63f38;
 }
